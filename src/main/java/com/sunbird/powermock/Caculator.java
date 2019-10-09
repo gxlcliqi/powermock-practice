@@ -1,10 +1,11 @@
 package com.sunbird.powermock;
 
-import com.sunbird.powermock.MathUtil;
-
 public class Caculator {
 
-    public int getSum(int a, int b) {
+    public Integer getSum(int a, int b) {
         return MathUtil.sum(a, b);
+    }
+    public Integer getSub(int c) {
+        return MathUtil.sub(c);
     }
 }

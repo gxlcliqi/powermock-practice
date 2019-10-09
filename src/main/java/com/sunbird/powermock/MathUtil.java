@@ -1,7 +1,11 @@
 package com.sunbird.powermock;
 
 public class MathUtil {
-    public static int sum(int a, int b) {
+    public static Integer sum(Integer a, Integer b) {
         return a + b;
+    }
+
+    public static Integer sub(Integer a) {
+        return a-1;
     }
 }
